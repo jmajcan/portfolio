@@ -37,7 +37,7 @@ export const TitleContent = styled.div`
   padding-top: 2rem;
   z-index: 20;
   width: 100%;
-  color: #FF7272;
+  color: #7FE5F0;
 `;
 
 
