@@ -44,9 +44,12 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
+      <SectionDivider /><br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        How did I start, milestones, etc.
+        I'm a software developer from Prince Edward Island, Canada with a serious passion for creating front-end 
+        applications. I have experience creating applications that empower patients, caregivers, and clinicians to 
+        improve outcomes and create efficiencies for administrators and government.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={() => handleScroll()}>
         <>
@@ -112,7 +115,6 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider/>
     </Section>
   );
 };
