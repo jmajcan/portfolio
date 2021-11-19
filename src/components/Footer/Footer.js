@@ -14,7 +14,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Resume</LinkTitle>
-          <LinkItem href='public\JakeMajcan_Resume.pdf' download>Download Resume</LinkItem>
+          <LinkItem href='JakeMajcan_Resume.pdf' download>Download Resume</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
