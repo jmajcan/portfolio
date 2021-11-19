@@ -6,6 +6,7 @@ import { data } from '../../constants/constants';
 
 const Acomplishments = () => (
   <Section>
+    <SectionDivider/><br />
     <SectionTitle>Personal Accomplishments</SectionTitle>
     <Boxes>
       {data.map((card, index) => (

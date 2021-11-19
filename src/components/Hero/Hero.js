@@ -9,7 +9,7 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Welcome To <br />
-        Mey Personal Portfolio
+        My Personal Portfolio
       </SectionTitle>
       <SectionText>
         A creative and self-starting software developer with a background in frontend development building stable e-health web and mobile applications.

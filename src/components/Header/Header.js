@@ -12,7 +12,7 @@ const Header = () =>  (
       <Link href='/'>
         <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' }}>
           {/* <DiCssdeck size='3rem' /> */}
-          <LogoImg src={Logo.at(0).darkSqr} />
+          <LogoImg src={Logo.at(0).lightRnd} />
           <Span>Jacob Majcan</Span>
         </a>
       </Link>
