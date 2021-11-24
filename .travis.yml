@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+ - "stable"
+install:
+ - rm -rf node_modules && npm install
+script:
+ - npm run build || true
+deploy:
+ provider: pages
+ skip_cleanup: true
+ github_token: $GITHUB_TOKEN
+ local_dir: out
+ on:
+   branch: master
